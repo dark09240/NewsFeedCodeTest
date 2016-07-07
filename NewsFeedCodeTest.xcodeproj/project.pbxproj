@@ -10,11 +10,11 @@
 		B66A83061D2E214F0030198B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A83051D2E214F0030198B /* main.m */; };
 		B66A83091D2E214F0030198B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A83081D2E214F0030198B /* AppDelegate.m */; };
 		B66A830C1D2E214F0030198B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A830B1D2E214F0030198B /* ViewController.m */; };
-		B66A830F1D2E214F0030198B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66A830D1D2E214F0030198B /* Main.storyboard */; };
 		B66A83111D2E214F0030198B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66A83101D2E214F0030198B /* Assets.xcassets */; };
 		B66A83141D2E214F0030198B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66A83121D2E214F0030198B /* LaunchScreen.storyboard */; };
 		B66A831F1D2E214F0030198B /* NewsFeedCodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A831E1D2E214F0030198B /* NewsFeedCodeTestTests.m */; };
 		B66A832A1D2E214F0030198B /* NewsFeedCodeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A83291D2E214F0030198B /* NewsFeedCodeTestUITests.m */; };
+		B66A83391D2E23330030198B /* DongFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A83381D2E23330030198B /* DongFramework.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		B66A83081D2E214F0030198B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B66A830A1D2E214F0030198B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B66A830B1D2E214F0030198B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B66A830E1D2E214F0030198B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B66A83101D2E214F0030198B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66A83131D2E214F0030198B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B66A83151D2E214F0030198B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		B66A83251D2E214F0030198B /* NewsFeedCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsFeedCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A83291D2E214F0030198B /* NewsFeedCodeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsFeedCodeTestUITests.m; sourceTree = "<group>"; };
 		B66A832B1D2E214F0030198B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66A83371D2E23330030198B /* DongFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DongFramework.h; sourceTree = "<group>"; };
+		B66A83381D2E23330030198B /* DongFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DongFramework.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +102,12 @@
 		B66A83031D2E214F0030198B /* NewsFeedCodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				B66A83371D2E23330030198B /* DongFramework.h */,
+				B66A83381D2E23330030198B /* DongFramework.m */,
 				B66A83071D2E214F0030198B /* AppDelegate.h */,
 				B66A83081D2E214F0030198B /* AppDelegate.m */,
 				B66A830A1D2E214F0030198B /* ViewController.h */,
 				B66A830B1D2E214F0030198B /* ViewController.m */,
-				B66A830D1D2E214F0030198B /* Main.storyboard */,
 				B66A83101D2E214F0030198B /* Assets.xcassets */,
 				B66A83121D2E214F0030198B /* LaunchScreen.storyboard */,
 				B66A83151D2E214F0030198B /* Info.plist */,
@@ -245,7 +247,6 @@
 			files = (
 				B66A83141D2E214F0030198B /* LaunchScreen.storyboard in Resources */,
 				B66A83111D2E214F0030198B /* Assets.xcassets in Resources */,
-				B66A830F1D2E214F0030198B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66A83391D2E23330030198B /* DongFramework.m in Sources */,
 				B66A830C1D2E214F0030198B /* ViewController.m in Sources */,
 				B66A83091D2E214F0030198B /* AppDelegate.m in Sources */,
 				B66A83061D2E214F0030198B /* main.m in Sources */,
@@ -308,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B66A830D1D2E214F0030198B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B66A830E1D2E214F0030198B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B66A83121D2E214F0030198B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

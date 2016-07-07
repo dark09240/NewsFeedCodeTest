@@ -14,10 +14,48 @@
 
 @implementation ViewController
 
+#pragma mark UIView Life Cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+
+    [self createMyTableView];
+
+}
+
+#pragma mark Create MyTableView
+
+- (void)createMyTableView {
+
+    self.myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
+    self.myTableView.dataSource = self;
+    self.myTableView.delegate = self;
+    
+    [self.view addSubview:self.myTableView];
+
+}
+
+#pragma mark UITableView DataSoure
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return 0;
+
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    UITableViewCell *cell;
+    
+    return cell;
+
+}
+
+#pragma mark Receive Memory Warning
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
