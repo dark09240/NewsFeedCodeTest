@@ -104,4 +104,19 @@
 
 }
 
+#pragma mark Create CustomActivityIndicatorView
+
++ (UIActivityIndicatorView *)createCustomActivityIndicatorView {
+    
+    UIActivityIndicatorView *myActivityIndicatorView = [[UIActivityIndicatorView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    myActivityIndicatorView.center = CGPointMake([UIScreen mainScreen].bounds.size.width / 2, [UIScreen mainScreen].bounds.size.height /2);
+    myActivityIndicatorView.hidesWhenStopped = YES;
+    myActivityIndicatorView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
+    myActivityIndicatorView.color = [UIColor blackColor];
+    myActivityIndicatorView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];
+    
+    return myActivityIndicatorView;
+    
+}
+
 @end

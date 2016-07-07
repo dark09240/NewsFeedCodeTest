@@ -25,4 +25,6 @@
 
 + (float)getLabelHeightWithText:(NSString *)text Width:(float)width;
 
++ (UIActivityIndicatorView *)createCustomActivityIndicatorView;
+
 @end

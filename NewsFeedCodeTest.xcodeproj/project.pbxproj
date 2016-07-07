@@ -15,6 +15,7 @@
 		B66A831F1D2E214F0030198B /* NewsFeedCodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A831E1D2E214F0030198B /* NewsFeedCodeTestTests.m */; };
 		B66A832A1D2E214F0030198B /* NewsFeedCodeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A83291D2E214F0030198B /* NewsFeedCodeTestUITests.m */; };
 		B66A83391D2E23330030198B /* DongFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A83381D2E23330030198B /* DongFramework.m */; };
+		B66A833C1D2E292D0030198B /* CustomNewsFeedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A833B1D2E292D0030198B /* CustomNewsFeedTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		B66A832B1D2E214F0030198B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B66A83371D2E23330030198B /* DongFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DongFramework.h; sourceTree = "<group>"; };
 		B66A83381D2E23330030198B /* DongFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DongFramework.m; sourceTree = "<group>"; };
+		B66A833A1D2E292D0030198B /* CustomNewsFeedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNewsFeedTableView.h; sourceTree = "<group>"; };
+		B66A833B1D2E292D0030198B /* CustomNewsFeedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNewsFeedTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 			children = (
 				B66A83371D2E23330030198B /* DongFramework.h */,
 				B66A83381D2E23330030198B /* DongFramework.m */,
+				B66A833A1D2E292D0030198B /* CustomNewsFeedTableView.h */,
+				B66A833B1D2E292D0030198B /* CustomNewsFeedTableView.m */,
 				B66A83071D2E214F0030198B /* AppDelegate.h */,
 				B66A83081D2E214F0030198B /* AppDelegate.m */,
 				B66A830A1D2E214F0030198B /* ViewController.h */,
@@ -274,6 +279,7 @@
 				B66A83391D2E23330030198B /* DongFramework.m in Sources */,
 				B66A830C1D2E214F0030198B /* ViewController.m in Sources */,
 				B66A83091D2E214F0030198B /* AppDelegate.m in Sources */,
+				B66A833C1D2E292D0030198B /* CustomNewsFeedTableView.m in Sources */,
 				B66A83061D2E214F0030198B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +496,7 @@
 				B66A83301D2E214F0030198B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B66A83311D2E214F0030198B /* Build configuration list for PBXNativeTarget "NewsFeedCodeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +505,7 @@
 				B66A83331D2E214F0030198B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B66A83341D2E214F0030198B /* Build configuration list for PBXNativeTarget "NewsFeedCodeTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +514,7 @@
 				B66A83361D2E214F0030198B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
