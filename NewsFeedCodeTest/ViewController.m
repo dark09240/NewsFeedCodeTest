@@ -120,7 +120,11 @@
                 
                 if (view == self.myActivityIndicatorView) {
                     
-                    [view removeFromSuperview];
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        
+                        [view removeFromSuperview];
+                    
+                    });
                     
                 }
                 
@@ -128,7 +132,11 @@
             
             self.myActivityIndicatorView = nil;
             
-            [self createMyTableView];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                
+                [self createMyTableView];
+            
+            });
             
         }
         
